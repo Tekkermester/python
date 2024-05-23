@@ -30,7 +30,7 @@ for i in adatok:
     if (i[2] == '4' and i[0] not in kolcsonzott):
         kolcsonzott_db +=1
         kolcsonzott.append(i[0])
-print(f"A menzán aznap {kolcsonzott_db} tanuló kölcsönzött.")
+print(f"A könyvtárban aznap {kolcsonzott_db} tanuló kölcsönzött.")
 
 if kolcsonzott_db > ebedelt:
     print("Többen voltak, mint a menzán.")
